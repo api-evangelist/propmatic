@@ -1,8 +1,14 @@
 aid: propmatic
 name: Propmatic
-description: 'Propmatic is a company surfaced as a portfolio company of fifth-wall and added to the API
-  Evangelist network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  PropMatic (PropMatic Inc.) is an AI-powered residential leasing platform that helps property
+  managers and multifamily operators lower cost-per-lease across both traditional and AI-driven
+  discovery channels. Its three products are AI Smart Sites (dynamic, search-optimized landing
+  pages), an AI Concierge chatbot that engages, nurtures, and converts prospects into residents,
+  and an AI-to-AI hosted Model Context Protocol (MCP) service that structures a client's listings,
+  data, and APIs so AI assistants such as ChatGPT can find, recommend, and act on inventory and even
+  schedule tours. The platform integrates with existing property-management, CMS, and CRM tools.
+  PropMatic is a proptech portfolio company backed by Fifth Wall.
 url: https://raw.githubusercontent.com/api-evangelist/propmatic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - fifth-wall
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://propmatic.co/propmatic-logomark.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Proptech
+- Real Estate
+- Leasing
+- Multifamily
+- Artificial Intelligence
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://propmatic.co/
+- type: PrivacyPolicy
+  url: https://propmatic.co/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/propmatic-inc/
+- type: Support
+  url: mailto:info@propmatic.co
+- type: DomainSecurity
+  url: security/propmatic-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
